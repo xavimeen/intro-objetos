@@ -20,7 +20,7 @@ public class ClienteMinorista {  //primero creamos la clase cliente y sus atribu
             this.saldo = this.saldo - producto.getPrecioTotal();
             System.out.println(this.nombre + " felicidades, tu compra fue finalizada correctamente.");
         } else {
-            System.out.println(this.nombre + " lastima, saldo insuficiente.");
+            System.out.println(this.nombre + " lástima, saldo insuficiente.");
         }
     }
 
